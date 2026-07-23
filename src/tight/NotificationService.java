@@ -1,7 +1,7 @@
 package tight;
 
 public class NotificationService {
-    public void send(String message){
+    public void sendPush(String message){
         System.out.println("Notification: " + message);
     }
 }
