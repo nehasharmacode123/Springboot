@@ -24,5 +24,12 @@ public class UserService {
     public void notifyUser(String message){
         notificationService.send("Notification Hello");
     }
+
+
+    public void setNotificationService(NotificationService notificationService) {
+        this.notificationService = notificationService;
+    }
+
+
 }
 
